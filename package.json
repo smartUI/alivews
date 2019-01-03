@@ -1,0 +1,25 @@
+{
+  "name": "alivews",
+  "version": "1.0.0",
+  "description": "A JavaScript library to provide a WebSocket connection that will automatically reconnect if the connection is disconnect.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartUI/alivews.git"
+  },
+  "keywords": [
+    "ws",
+    "websocket",
+    "socket",
+    "reconnect"
+  ],
+  "author": "Yehua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartUI/alivews/issues"
+  },
+  "homepage": "https://github.com/smartUI/alivews#readme"
+}
