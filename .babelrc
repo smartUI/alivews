@@ -1,0 +1,23 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "browsers": [
+                        "iOS >= 9",
+                        "Android >= 4.3"
+                    ]
+                },
+                "modules": false
+            }
+        ]
+    ],
+    "compact": true,
+    "sourceMaps": true,
+    "retainLines": true,
+    "plugins": [
+        "transform-object-rest-spread",
+        "transform-runtime"
+    ]
+}

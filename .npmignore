@@ -3,3 +3,8 @@ npm-debug.log
 .idea
 .DS_Store
 .history
+
+server
+script
+build
+test

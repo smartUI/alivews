@@ -1,19 +1,9 @@
-# alivews
-A JavaScript library to provide a WebSocket connection that will automatically reconnect if the connection is disconnect.
-
-
-## How to use
-
-```
 import AliveWS from './AliveWS';
 AliveWS.debugAll = true;
 
 
-const alivews = new AliveWS('ws://127.0.0.1:9091',[], {
-    auto: false,
-});
-
-alivews.connect();
+const alivews = new AliveWS('ws://127.0.0.1:9091');
+// alivews.connect();
 
 alivews.options.onPing = () => {
     console.log('---- ping ----')
@@ -57,5 +47,3 @@ setTimeout(() => {
         data: 'Guess it?'
     });
 }, 1000);
-
-```
